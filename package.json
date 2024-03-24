@@ -1,0 +1,25 @@
+{
+  "name": "paymenterjs",
+  "version": "1.0.0",
+  "description": "JS Wrapper for Paymenter API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirHoDo/PaymenterJS.git"
+  },
+  "keywords": [
+    "Paymenter"
+  ],
+  "author": "Ethan Primmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirHoDo/PaymenterJS/issues"
+  },
+  "homepage": "https://github.com/SirHoDo/PaymenterJS#readme",
+  "dependencies": {
+    "cross-fetch": "^4.0.0"
+  }
+}
