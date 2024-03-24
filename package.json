@@ -1,6 +1,6 @@
 {
   "name": "paymenterjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS Wrapper for Paymenter API",
   "main": "index.js",
   "scripts": {
