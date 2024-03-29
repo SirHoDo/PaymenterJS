@@ -163,6 +163,14 @@ const response = await paymenterApi.payInvoice(invoiceId, method);
 console.log(response);
 ```
 
+#### `getPermissions()`
+
+Get token permissions .
+
+```javascript
+const response = await paymenterApi.getPermissions();
+console.log(response);
+```
 
 
 ## License

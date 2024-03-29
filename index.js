@@ -204,4 +204,23 @@ module.exports.PaymenterAPI = class {
             return j;
         });
     }
+
+    /**
+     * Get token permissions 
+     * @returns {JSON} Token permissions
+     * @example
+     * await paymenterApi.getPermissions()
+     * */
+    async getPermissions() {
+        return f(`${this.baseurl}/api/client/v1/permissions`, {
+            method: "GET",
+            headers: {
+                "Accept": "application/json",
+                "Authorization": `Bearer ${this.apikey}`
+            }
+        }).then(async res => {
+            const j = await res.json().catch();
+            return j;
+        });
+    }
 };
